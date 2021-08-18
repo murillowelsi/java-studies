@@ -1,9 +1,9 @@
 package exercises;
 
 public class Arrays {
-    static double[] studentOne = new double[6];
-
     public static void main(String[] args) {
+        double[] studentOne = new double[6];
+
         studentOne[0] = 5;
         studentOne[1] = 8.5;
         studentOne[2] = 10;
@@ -23,5 +23,10 @@ public class Arrays {
 
         System.out.println(res/6);
 
+        double[] studentTwo = {6.9, 8.0, 6.5, 10.0, 7.5, 6.0};
+
+        for (double x : studentTwo) {
+            System.out.println(x);
+        }
     }
 }
